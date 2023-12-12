@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header id="title">Core Web Tech Stack</header>
+      <ul>
+        <li class="nav-li">
+          <a class="nav-link" href="#HTML">HTML</a>
+        </li>
+        <li class="nav-li">
+          <a class="nav-link" href="#CSS">CSS</a>
+        </li>
+        <li class="nav-li">
+          <a class="nav-link" href="#Javascript">Javascript</a>
+        </li>
+        <li class="nav-li">
+          <a class="nav-link" href="#React.js">React.js</a>
+        </li>
+        <li class="nav-li">
+          <a class="nav-link" href="#Node.js">Node.js</a>
+        </li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="HTML">
+        <header>HTML</header>
+        <p>
+          HTML is the standard markup language for Web pages.<br>
+          The standard boiler plate code for HTML is as follows:
+        </p>
+        <div class="codeContainer">
+          <code>
+            &lt;!DOCTYPE html&gt;<br>
+            &lt;html&gt;<br>
+            <span style="display: inline-block; padding-left: 10px;"></span>&lt;head&gt;<br>
+            <span style="display: inline-block; padding-left: 20px;"></span>&lt;title&gt;
+              Page Title
+            &lt;/title&gt;<br>
+            <span style="display: inline-block; padding-left: 10px;"></span>&lt;/head&gt;<br>
+            &lt;body&gt;<br>
+            <br>
+            <span style="display: inline-block; padding-left: 10px;"></span>&lt;h1&gt;This is a Heading&lt;/h1&gt;<br>
+            <span style="display: inline-block; padding-left: 10px;"></span>&lt;p&gt;This is a paragraph.&lt;/p&gt;<br>
+            <br>
+            &lt;/body&gt;<br>
+            &lt;/html&gt;<br>
+          </code>
+        </div>
+        <p>
+          You can read a lot more about HTML on w3schools html tutorial page <a href="https://www.w3schools.com/html/" target="_blank">here</a>
+        </p>
+      </section>
+      <section class="main-section" id="CSS">
+        <header>CSS</header>
+        <p>
+          CSS is the language we use to style an HTML document.<br>
+          CSS describes how HTML elements should be displayed.<br>
+        </p>
+        <p>There are several ways to target an html element with CSS</p>
+        <div class="codeContainer">
+          <code>
+            div{<br>
+              <span style="display: inline-block; padding-left: 10px;"></span>/* all div elements */<br>
+              <span style="display: inline-block; padding-left: 10px;"></span>color: lightgreen;<br>
+            }<br>
+            .divClass{<br>
+            <span style="display: inline-block; padding-left: 10px;"></span>/* divs with this class */<br>
+              <span style="display: inline-block; padding-left: 10px;"></span>color: lightgreen;<br>
+            }<br>
+            #divClass{<br>
+            <span style="display: inline-block; padding-left: 10px;"></span>/* divs with this id */<br>
+              <span style="display: inline-block; padding-left: 10px;"></span>color: lightgreen;<br>
+            }<br>
+          </code>
+        </div>
+        <p>
+          You can read a lot more about CSS on w3schools css tutorial page <a href="https://www.w3schools.com/Css/" target="_blank">here</a>
+        </p>
+      </section>
+      <section class="main-section" id="Javascript">
+        <header>Javascript</header>
+        <p>
+          JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them. 
+        </p>
+        <p>
+        JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example: 
+        </p>
+        <ul>
+          <li class="js-li">
+            Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation. 
+          </li>
+          <li class="js-li">
+            Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript on a server. For example, server-side extensions allow an application to communicate with a database, provide continuity of information from one invocation to another of the application, or perform file manipulations on a server. 
+          </li>
+        </ul>
+        <p>
+          Javascript is at the center of many web frameworks and technologies, such as:
+        </p>
+        <ul>
+          <li class="js-li">React.js</li>
+          <li class="js-li">Angular</li>
+          <li class="js-li">Node.js</li>
+        </ul>
+        <p>
+          The basic javascript data types are:
+        </p>
+        <div class="codeContainer">
+          <code>
+            const boolean = true || false <br>
+            const string = "string of characters"<br>
+            const number = 100<br>
+            const array = []<br>
+            const object = {}<br>
+          </code>
+        </div>
+        <p>
+          You can read a lot more about Javascript in MDN <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" target="_blank">here</a>
+        </p>
+      </section>
+      <section class="main-section" id="React.js">
+        <header>React.js</header>
+        <p>
+          React lets you build user interfaces out of individual pieces called components.
+        </p>
+        <p>
+          Whether you work on your own or with thousands of other developers, using React feels the same. It is designed to let you seamlessly combine components written by independent people, teams, and organizations.
+        </p>
+        <p>
+          Here is an example of a basic React component
+        </p>
+        <div class="codeContainer">
+          <code>
+              export default function BasicReactComponent() {<br>
+                <span style="display: inline-block; padding-left: 10px;"></span>return (<br>
+                  <span style="display: inline-block; padding-left: 20px;"></span>&lt;div&gt;BasicReactComponent&lt;/div&gt;<br>
+                <span style="display: inline-block; padding-left: 10px;"></span>)<br>
+              }<br>
+          </code>
+        </div>
+        <p>
+          You can read up on React in their excellent documentation <a href="https://react.dev/" target="_blank">here</a>
+        </p>
+      </section>
+      <section class="main-section" id="Node.js">
+        <header>Node.js</header>
+        <p>
+          As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications. In the following "hello world" example, many connections can be handled concurrently. Upon each connection, the callback is fired, but if there is no work to be done, Node.js will sleep.
+        </p>
+        <div class="codeContainer">
+          <code>
+            const http = require('node:http');<br>
+            const hostname = '127.0.0.1';<br>
+            const port = 3000;<br>
+            const server = http.createServer((req, res) => {<br>
+              <span style="display: inline-block; padding-left: 10px;"></span>res.statusCode = 200;<br>
+              <span style="display: inline-block; padding-left: 10px;"></span>res.setHeader('Content-Type', 'text/plain');<br>
+              <span style="display: inline-block; padding-left: 10px;"></span>res.end('Hello World');<br>
+            });<br>
+            server.listen(port, hostname, () => {<br>
+              <span style="display: inline-block; padding-left: 10px;"></span>console.log(`Server running at http://${hostname}:${port}/`);<br>
+            });
+          </code>
+        </div>
+        <p>
+          You can read up a lot more about Node.js in their offical docs <a href="https://nodejs.org/en/docs" target="_blank">here</a>
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
